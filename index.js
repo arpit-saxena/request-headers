@@ -5,7 +5,8 @@ app.use("/",express.static(__dirname + "/public"));
 
 app.get("/whoami", function(req, res) {
   req.setEncoding('utf8');
-  var ip = req.ip;
+  var ip = req.connection.remoteAddress;
+  console.log(req.connection);
   var user_agent = req.headers['user-agent'];
   var lang = req.headers['accept-language'].split(/,|;/)[0];
   var info = {
