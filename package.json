@@ -1,0 +1,22 @@
+{
+  "name": "req_headers",
+  "version": "1.0.0",
+  "description": "Request Header Parser Microservice for FreeCodeCamp API Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arpit-saxena/request-headers.git"
+  },
+  "author": "Arpit Saxena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arpit-saxena/request-headers/issues"
+  },
+  "homepage": "https://github.com/arpit-saxena/request-headers#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
