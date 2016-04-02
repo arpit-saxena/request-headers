@@ -18,5 +18,8 @@
   "homepage": "https://github.com/arpit-saxena/request-headers#readme",
   "dependencies": {
     "express": "^4.13.4"
+  },
+  "engines": {
+    "node": "5.9.1"
   }
 }
